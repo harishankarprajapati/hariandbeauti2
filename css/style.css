@@ -60,8 +60,7 @@ a.nav-link.text-light {
     color: #000000;
     padding: 15px 50px;
     background-color: #fff;
-
-
+    display: inline-block;
 }
 
 .sec-but-1:hover {
@@ -221,7 +220,7 @@ input#exampleInputEmail1 {
     text-transform: capitalize;
     color: #FFFFFF;
     background: #808080;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    display: inline-block;
     padding: 21px 25px;
 }
 
@@ -231,7 +230,7 @@ input#exampleInputEmail1 {
 }
 
 .sec-btn-what {
-    padding-top: 23px;
+    padding-top: 0px;
 }
 
 .sec-bg-header4 {
@@ -430,74 +429,29 @@ label {
     color: #666666;
 
 }
-
-@media (max-width: 767px) {
-    .sec-heading-main {
-        font-weight: 400;
-        font-size: 35px;
-        line-height: 108.98%;
-    }
-    .sec-bg-header44 {
-        background-image: none;
-        background-color: #000;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .sec-but-1 {
-        font-size: 15px;
-        line-height: 119.48%;
-        padding: 15px 30px;
-    }
-
-    .sec-but-2 {
-        font-size: 15px;
-        line-height: 119.48%;
-        padding: 15px 20px;
-        margin-bottom: 20px;
-    }
-
-    .sec-b-m {
-        margin: 20px 0px !important;
-        padding: 5px !important;
-    }
-
-    .sec-serv-h {
-        font-size: 45px;
-    }
-
-    .sec-hair-img {
-        width: 100%;
-    }
-
-    .sec-hair-h {
-        font-size: 45px;
-        padding-top: 30px;
-    }
-
-    .sec-p {
-        padding: 0 !important;
-    }
-
-    .sec-p-what h2 {
-        font-size: 19px;
-        padding: 0;
-        line-height: 37px;
-    }
-
-    .sec-serv-h2 {
-        font-size: 35px;
-    }
-
-    .sec-p-bec {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    .sec-logo {
-        width: 100%;
-    }
+.sec-btn-what2 .sec-but-4{
+    display: inline-block;
 }
+.footer-formwrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-formwrap .sec-btn-what2{
+    padding-top: 0px;
+}
+.footer-formwrap .form-group.p-0{
+    margin: 0px;
+}
+.footer-formwrap .sec-but-4{
+    padding: 13px 13px;
+}
+.service-section .card-body .btn{
+    padding: 5px 20px;
+    font-size: 13px;
+}
+
 
 /* whatsapp */
 a {
@@ -705,8 +659,63 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
 input#exampleInputEmail12 {
     border-radius: 0px;
 }
-@media (max-width: 768px) {
-    .con-bg{
+
+
+@media (max-width:991px){
+
+    .mission-vision-content{
+        margin-top: 40px;
+    }
+    .pt-5.abt-mission-vision{
+        padding-top: 0px !important;
+    }
+    .out-story-content{
+        margin-top: 40px;
+    }
+    .abt-our-story .row{
+        flex-direction: column-reverse;
+    }
+    .abt-mission-vision{
+        flex-direction: column-reverse;
+    }
+    .sec-about-header{
+        min-height: auto;
+    }
+    .sec-bg-header22{
+        padding: 0px 0px !important;
+    }
+    .tab-pane h3 br{
+        display: none;
+    }
+    .tab-pane h3{
+        font-size: 20px;
+    }
+    .sec-serv-h{
+        padding: 0px 0px 20px;
+    }
+    a.nav-link.sec-t.text-light{
+        font-size: 18px;
+        text-align: center;
+    }
+    .service-section-offered{
+        padding-bottom: 0px !important;
+    }
+    .hair-beauty-section{
+        padding-bottom: 0px !important;
+    }
+    .sec-p-what h2{
+        font-size: 32px;
+    }
+    .style-gallery-section .sec-ser-n{
+        font-size: 20px !important;
+    }
+    .container-fluid.sec-bg-header44 .pt-5.pb-5.text-center{
+        padding-top: 0px !important;
+    }
+}
+@media (max-width:767px){
+
+        .con-bg{
         margin-top: 50px;
     }
     .sec-serv-fra-h {
@@ -767,4 +776,86 @@ input#exampleInputEmail12 {
    
 }
 
+    .sec-form {
+        width: 100%;
+    }
+    .sec-bg-header22 {
+        background-color: #2F2F2F;
+        padding: 10px !important;
+    }
+    .sec-heading-main {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 108.98%;
+    }
+    .sec-bg-header44 {
+        background-image: none;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sec-but-1 {
+        font-size: 15px;
+        line-height: 119.48%;
+        padding: 15px 30px;
+    }
+
+    .sec-but-2 {
+        font-size: 15px;
+        line-height: 119.48%;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .pl-5.style-gallery-section{
+        padding-left: 15px !important;
+    }
+    .container-fluid.sec-bg-header44 .sec-serv-h2{
+        padding: 40px 0px 0px 0px;
+    }
+    .sec-b-m {
+        margin: 20px 0px !important;
+        padding: 5px !important;
+    }
+
+    .sec-serv-h {
+        font-size: 45px;
+    }
+
+    .sec-hair-img {
+        width: 100%;
+    }
+
+    .sec-hair-h {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+
+    .sec-p {
+        padding: 0 !important;
+    }
+
+    .sec-serv-h2 {
+        font-size: 35px;
+    }
+
+    .sec-p-bec {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .sec-logo {
+        width: 100%;
+    }
+    input.form-control.shadow.p-4.mt-2.mb-2.bg-body{
+        font-size: 20px;
+    }
+    textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body{
+        font-size: 20px;
+    }
+    .btn {
+        padding: 10px 40px;
+        font-size: 20px;
+    }
 }
