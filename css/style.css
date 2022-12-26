@@ -1,0 +1,770 @@
+@font-face {
+    font-family: 'Sweet Sensations Personal Use';
+    src: url(../font/sweet-sensations-personal-use/sweet-sensations-personal-use.regular.ttf);
+}
+@font-face {
+    font-family: 'causten';
+    src: url(../font/Causten-Regular.otf);
+}
+body {
+    font-family: 'causten';
+}
+
+.sec-hair-pa a {
+    color: #000 !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Crimson';
+}
+.sec-bg-header22 {
+    background-color: #2F2F2F;
+}
+
+.sec-bg-header {
+    background-image: url(../images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a.nav-link.text-light {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 81%;
+}
+
+.sec-heading-main {
+    font-family: 'Sweet Sensations Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 108.98%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8%;
+}
+
+.sec-heading-main2 {
+    color: #E0AE30;
+}
+
+.sec-but-1 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 119.48%;
+    text-align: center;
+    color: #000000;
+    padding: 15px 50px;
+    background-color: #fff;
+
+
+}
+
+.sec-but-1:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 37px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #CFA335;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0 !important;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 38px;
+}
+
+.sec-serv-h {
+    font-family: 'Sweet Sensations Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 119.48%;
+    text-align: center;
+    background: linear-gradient(105.42deg, #E0AE30 10.69%, #B88611 134.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 30px 0px;
+
+}
+.sec-ser-n{
+    font-size: 25px !important;
+}
+
+
+
+
+
+
+
+.sec-sev-img {
+    padding: 19px 14px;
+}
+
+.sec-but-2 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 119.48%;
+    text-align: center;
+    color: #fff;
+    padding: 15px 50px;
+    background-color: #2F2F2F;
+
+
+}
+
+.sec-hover-full:hover .sec-sev-img {
+    background: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    box-shadow: inset 0px 0px 25px 3px rgba(17, 17, 17, 0.13);
+    border-radius: 50%;
+    padding: 18px 14px;
+
+}
+
+.sec-hover-full:hover .sec-ser-hov {
+    color: #000000;
+    text-decoration: none;
+}
+
+.sec-hover-full:hover .sec-ser-hov::before {
+    content: "";
+    width: 25px;
+    height: 5px;
+    background-color: #111111;
+    position: absolute;
+    bottom: -13px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.sec-but-2:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sec-bg-header2 {
+    background-image: url(../images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-hair-h {
+    font-family: 'Sweet Sensations Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 119.48%;
+    text-align: center;
+    background: linear-gradient(105.42deg, #E0AE30 10.69%, #B88611 134.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.sec-bg-header3 {
+    background-image: url(../images/whatsapp\ offer\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-bg-header33 {
+    background-image: url(../images/whatsapp\ offer\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-p-what {
+    padding-top: 14%;
+    padding-bottom: 4%;
+}
+
+.sec-p-what h2 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+input#exampleInputEmail1 {
+    padding: 35px 19px;
+    border-radius: 0;
+}
+
+.sec-but-3 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 114.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #808080;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 21px 25px;
+}
+
+.sec-but-3:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sec-btn-what {
+    padding-top: 23px;
+}
+
+.sec-bg-header4 {
+    background-image: url(../images/Group\ 26\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-bg-header44 {
+    background-image: url(../images/Rectangle\ 49.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-ind-p{
+    font-size: 20px;
+    padding: 20px;
+}
+.sec-serv-h2 {
+    font-family: 'Sweet Sensations Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 119.48%;
+    text-align: center;
+    background: linear-gradient(105.42deg, #E0AE30 10.69%, #B88611 134.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 125px 0px 30px 0px;
+
+}
+
+.sec-bg-header5 {
+    background-color: #2F2F2F;
+}
+
+hr.sec-hr {
+    background: #fff;
+    height: 2px;
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.sec-foot-h {
+    font-family: 'Sweet Sensations Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 81%;
+    color: #E0AE30;
+    text-align: center;
+}
+
+.sec-foot-c {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 112.5%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.sec-foot-c:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sec-form {
+    padding: 10px !important;
+}
+
+.sec-but-4 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 81%;
+    color: #000000;
+    background-color: #fff;
+    padding: 10px 13px;
+}
+
+.sec-btn-what2 {
+    padding-top: 7px;
+}
+
+.sec-but-4:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* about */
+a.nav-link.sec-t.text-light {
+    color: #000 !important;
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 81%
+}
+
+.sec-about-header {
+    background-image: url(../images/Group\ 85.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.sec-about-h {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 96.98%;
+    text-align: right !important;
+    justify-content: center;
+    color: #CF9D23;
+    padding: 100px 0px;
+}
+
+.sec-our {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 96.98%;
+    color: #000000;
+
+}
+
+.sec-our-p {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 165.48%;
+    color: #666666;
+}
+
+.sec-our2 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 165.48%;
+    color: #333333;
+
+}
+
+.sec-icon {
+    font-size: 22px;
+}
+
+
+/* Services */
+.sec-about-header2 {
+    background-image: url(../images/Group\ 86\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.form-check-input:checked {
+    background-color: #C38D06;
+    border-color: #C38D06;
+}
+
+.checked {
+    color: #C38D06;
+}
+
+.btn-orange {
+    color: #ffffff !important;
+    background-color: #C38D06 !important;
+    border-color: #C38D06 !important;
+}
+
+h4.text-orange {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 29px;
+    color: #C48D06;
+}
+
+label {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 165.48%;
+    color: #666666;
+
+}
+
+@media (max-width: 767px) {
+    .sec-heading-main {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 108.98%;
+    }
+    .sec-bg-header44 {
+        background-image: none;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sec-but-1 {
+        font-size: 15px;
+        line-height: 119.48%;
+        padding: 15px 30px;
+    }
+
+    .sec-but-2 {
+        font-size: 15px;
+        line-height: 119.48%;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+
+    .sec-b-m {
+        margin: 20px 0px !important;
+        padding: 5px !important;
+    }
+
+    .sec-serv-h {
+        font-size: 45px;
+    }
+
+    .sec-hair-img {
+        width: 100%;
+    }
+
+    .sec-hair-h {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+
+    .sec-p {
+        padding: 0 !important;
+    }
+
+    .sec-p-what h2 {
+        font-size: 19px;
+        padding: 0;
+        line-height: 37px;
+    }
+
+    .sec-serv-h2 {
+        font-size: 35px;
+    }
+
+    .sec-p-bec {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .sec-logo {
+        width: 100%;
+    }
+}
+
+/* whatsapp */
+a {
+    text-decoration: none !important;
+}
+
+.floating_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+@keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+}
+
+.contact_icon {
+    background-color: #42db87;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 0 0 #42db87;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    transition: all 300ms ease-in-out;
+}
+
+
+.text_icon {
+    margin-top: 8px;
+    color: #707070;
+    font-size: 13px;
+}
+
+/* ---franchise */
+.sec-fran-header {
+   background-color: #000;
+ 
+}
+
+.sec-fra-h {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 96.98%;
+    text-align: right !important;
+    justify-content: center;
+    color: #CF9D23;
+    padding-top: 80px;
+
+}
+
+.sec-about-p {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150.98%;
+    text-align: right;
+    width: 805;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+/* ------------------franchise-------------- */
+
+.sec-fran-bg{
+    background-image: url(../images/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-f-h{
+    font-family: 'Crimson';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 96.98%;
+text-align: center;
+color: #FFFFFF;
+padding-top: 50px;
+}
+
+.sec-serv-fra-h {
+
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 96.98%;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
+}
+
+.sec-ser-hov22 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 96.98%;
+    text-align: center;
+    color: #666666;
+}
+
+.sec-ser-hov22:hover {
+    color: #666666;
+}
+
+.sec-hover-full:hover .sec-ser-hov22::before {
+    content: "";
+    width: 55px;
+    height: 5px;
+    background-color: #C38D06;
+    position: absolute;
+    bottom: -13px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.sec-fan-p-ser {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 133.48%;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* ---------------------------------contact-page---------------------------- */
+
+.icon {
+    padding-top: 20px;
+    font-size: 40px;
+}
+.sec-con-p{
+    word-break: break-word;
+}
+.con-bg{
+    margin-top: -40px;
+}
+
+.sec-form{
+    width: 55%;
+}
+input.form-control.shadow.p-4.mt-2.mb-2.bg-body {
+    border-radius: 0px !important;
+    font-size: 25px;
+    font-family: 'Crimson'; 
+    font-weight: 600;
+    height: 65px;
+}
+textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Crimson'; 
+    border-radius: 0px !important;
+    padding: 7px 23px !important;
+}
+.btn{
+    background-color: #C38D06;
+    border-radius: 0;
+    padding: 15px 50px;
+    font-family: 'Crimson'; 
+    font-size: 25px;
+}
+.btn.btn:hover  {
+    background-color: #C38D06;
+}
+.sec-foot-p{
+    font-family: 'Crimson';
+}
+.sec-cont{
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input#exampleInputEmail12 {
+    border-radius: 0px;
+}
+@media (max-width: 768px) {
+    .con-bg{
+        margin-top: 50px;
+    }
+    .sec-serv-fra-h {
+
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 96.98%;
+       
+    }
+    .sec-f-h{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 96.98%;
+  
+    }
+    .sec-fan-p-ser {
+       
+        font-size: 20px;
+        line-height: 133.48%;
+        
+    }
+    .sec-about-h {
+       
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 96.98%;
+       
+        padding: 80px 0px;
+    }
+    
+.sec-our {
+ 
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 96.98%;
+    color: #000000;
+
+}
+.sec-fra-h {
+ 
+    font-size: 50px;
+    line-height: 96.98%;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.sec-about-p {
+    font-size: 15px;
+    line-height: 150.98%;
+    text-align: center;
+  
+}
+
+.sec-ser-hov22 {
+   
+    font-size: 16px;
+   
+}
+
+}
