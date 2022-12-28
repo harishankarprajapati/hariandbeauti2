@@ -99,7 +99,7 @@ a.nav-link.text-light {
 
 }
 .sec-ser-n{
-    font-size: 25px !important;
+    font-size: 22px !important;
 }
 
 
@@ -195,6 +195,10 @@ a.nav-link.text-light {
     padding-bottom: 4%;
 }
 
+.sec-p-what{
+    font-size: 20px !important;
+}
+
 .sec-p-what h2 {
     font-family: 'Crimson';
     font-style: normal;
@@ -286,7 +290,7 @@ hr.sec-hr {
 }
 
 .sec-foot-c {
-    font-family: 'Crimson';
+    letter-spacing: 1px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -529,10 +533,9 @@ a {
 }
 
 .sec-about-p {
-    font-family: 'Crimson';
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 150.98%;
     text-align: right;
     width: 805;
@@ -647,7 +650,7 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
     background-color: #C38D06;
 }
 .sec-foot-p{
-    font-family: 'Crimson';
+    letter-spacing: 1px;
 }
 .sec-cont{
     height: 225px;
@@ -659,7 +662,9 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
 input#exampleInputEmail12 {
     border-radius: 0px;
 }
-
+.style-gallery-section{
+    padding: 80px 0px;
+}
 
 @media (max-width:991px){
 
