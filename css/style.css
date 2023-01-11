@@ -674,6 +674,19 @@ input#exampleInputEmail12 {
     font-size: 18px;
     color: #999;
 }
+.sec-about-h22 {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 96.98%;
+    text-align: left !important;
+    justify-content: center;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
 
 .tz-gallery {
     padding-left: 40px;
