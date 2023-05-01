@@ -18,7 +18,7 @@
 
 .sec-logo222 {
     margin-bottom: -70px;
-    z-index: 999; 
+    z-index: 999;
     position: relative;
 }
 
@@ -50,6 +50,7 @@ li.nav-item.pl-2.pr-2 {
     color: #FFFFFF;
 
 }
+
 .sec-number:hover {
     color: #C38D06;
 }
@@ -60,7 +61,7 @@ li.nav-item.pl-2.pr-2 {
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-    
+
     color: #2F2F2F;
 }
 
@@ -112,28 +113,31 @@ a.nav-link.text-light {
 .sec-but-1:hover {
     color: #FFFFFF;
     text-decoration: none;
-    background-color:#C48D06 ;
+    background-color: #C48D06;
 }
-.sec-serv-new{
+
+.sec-serv-new {
     background-color: #111111;
     padding-bottom: 80px;
 }
 
-.sec-new-imag{
+.sec-new-imag {
     background-image: url(../images/Polygon\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
     padding: 65px;
 }
-.sec-new-imag:hover{
+
+.sec-new-imag:hover {
     background-image: url(../images/Polygon\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
     padding: 65px;
 }
-.service-section-offered{
+
+.service-section-offered {
     margin-top: -85px;
 }
 
@@ -156,7 +160,7 @@ a.nav-link.text-light {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 66px;
+    font-size: 60px;
     line-height: 119.48%;
     text-align: center;
     background: linear-gradient(105.42deg, #E0AE30 10.69%, #B88611 134.95%);
@@ -166,6 +170,12 @@ a.nav-link.text-light {
     text-fill-color: transparent;
     padding: 30px 0px;
 
+}
+
+#footer-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 .sec-ser-n {
@@ -192,8 +202,8 @@ a.nav-link.text-light {
 
 
 
- .sec-  new-imag:hover .sec-ser-hov:hover{
-    color: #ffffff !important ;
+.sec- new-imag:hover .sec-ser-hov:hover {
+    color: #ffffff !important;
     text-decoration: none;
 }
 
@@ -338,13 +348,14 @@ hr.sec-hr {
 }
 
 .sec-foot-c {
-    letter-spacing: 1px;
+    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 112.5%;
+    font-size: 25px;
+    line-height: 153.4%;
     text-align: center;
-    color: #FFFFFF;
+    color: #D9D9D9;
+    word-break: break-all;
 
 }
 
@@ -404,22 +415,31 @@ a.nav-link.sec-t.text-light {
 }
 
 .sec-our {
-    font-family: 'Crimson';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 96.98%;
     color: #000000;
 
 }
 
+.abt-our-story {
+    margin-top: -280px;
+}
+
+.sec-slider-img {
+    max-height: 214px;
+}
+
 .sec-our-p {
-    font-family: 'Crimson';
+    font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 165.48%;
     color: #666666;
+    padding-top: 20px;
 }
 
 .sec-our2 {
@@ -486,7 +506,7 @@ label {
 .footer-formwrap {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 30px;
 }
 
@@ -496,10 +516,20 @@ label {
 
 .footer-formwrap .form-group.p-0 {
     margin: 0px;
+    width: 450px !important;
 }
 
 .footer-formwrap .sec-but-4 {
-    padding: 13px 13px;
+    padding: 15px 30px;
+    background: #C48D06;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
 .service-section .card-body .btn {
@@ -710,7 +740,27 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
 }
 
 .sec-foot-p {
-    letter-spacing: 1px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 153.4%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-fooer-border {
+    border-top: 1px solid #404040;
+}
+
+.footer-subsc {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 110.1%;
+    color: #000000;
+
 }
 
 .sec-cont {
@@ -723,10 +773,15 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
 
 input#exampleInputEmail12 {
     border-radius: 0px;
+    padding: 26px 30px !important;
+    border-bottom:1px solid #aaa ;
+    border-top:0 ;
+    border-left:0 ;
+    border-right:0 ;
 }
 
 .style-gallery-section {
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 
 /* ---------------all-team -----------*/
@@ -988,8 +1043,17 @@ section img {
         margin-top: 40px;
     }
 
+    .abt-our-story {
+        margin-top: 0px !important;
+    }
+
     .abt-our-story .row {
         flex-direction: column-reverse;
+
+    }
+
+    a.navbar-brand {
+        width: 69%;
     }
 
     .abt-mission-vision {
@@ -1043,16 +1107,39 @@ section img {
 }
 
 @media (max-width:767px) {
-    .sec-new-imag{
-       padding: 10px;
+    .style-gallery-section {
+        padding: 10px 0px !important;
     }
-    .sec-new-imag:hover{
-       padding: 10px;
+    .footer-formwrap .sec-but-4 {
+        padding: 14px 10px !important;
     }
-    .service-section-offered{
+    .footer-subsc {
+        font-size: 30px;
+        text-align: center !important;
+    }
+    .footer-formwrap .form-group.p-0 {
+        margin: 0px;
+        width: 100% !important;
+    }
+    #footer-menu {
+        display: block;
+        padding: 0;
+        text-align: left;
+    }
+
+    .sec-new-imag {
+        padding: 10px;
+    }
+
+    .sec-new-imag:hover {
+        padding: 10px;
+    }
+
+    .service-section-offered {
         margin: 0px !important;
         padding: 10px 0px !important;
     }
+
     .sec-logo222 {
         margin-bottom: 0px !important;
         width: 53% !important;
@@ -1220,8 +1307,14 @@ section img {
         font-size: 20px;
     }
 }
-@media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1500px !important;
-}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1500px !important;
+    }
 }
