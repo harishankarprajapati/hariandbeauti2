@@ -1,24 +1,70 @@
 @font-face {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     src: url(../font/sweet-sensations-personal-use/sweet-sensations-personal-use.regular.ttf);
 }
+
 @font-face {
     font-family: 'causten';
     src: url(../font/Causten-Regular.otf);
 }
-body {
+
+/* body {
     font-family: 'causten';
+} */
+
+.sec-bg-header22 {
+    background-color: #111111;
+}
+
+.sec-logo222 {
+    margin-bottom: -70px;
+    z-index: 999; 
+    position: relative;
+}
+
+a.btn.sec-menu-btn.my-2.my-sm-0 {
+    background: #C48D06;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+li.nav-item.pl-2.pr-2 {
+    padding-top: 11px;
+}
+
+.sec-header-icon {
+    color: #C38D06;
+}
+
+.sec-number {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.sec-number:hover {
+    color: #C38D06;
 }
 
 .sec-hair-pa a {
-    color: #000 !important;
-    text-transform: uppercase;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
     font-size: 20px;
-    font-family: 'Crimson';
+    line-height: 27px;
+    
+    color: #2F2F2F;
 }
-.sec-bg-header22 {
-    background-color: #2F2F2F;
-}
+
+
 
 .sec-bg-header {
     background-image: url(../images/Group\ 39.png);
@@ -28,15 +74,14 @@ body {
 
 
 a.nav-link.text-light {
-    font-family: 'Crimson';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
     line-height: 81%;
 }
 
 .sec-heading-main {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
@@ -45,6 +90,7 @@ a.nav-link.text-light {
     color: #FFFFFF;
     padding-top: 8%;
 }
+
 
 .sec-heading-main2 {
     color: #E0AE30;
@@ -57,15 +103,38 @@ a.nav-link.text-light {
     font-size: 25px;
     line-height: 119.48%;
     text-align: center;
-    color: #000000;
-    padding: 15px 50px;
-    background-color: #fff;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: 2px solid #C48D06;
     display: inline-block;
 }
 
 .sec-but-1:hover {
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
+    background-color:#C48D06 ;
+}
+.sec-serv-new{
+    background-color: #111111;
+    padding-bottom: 80px;
+}
+
+.sec-new-imag{
+    background-image: url(../images/Polygon\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    padding: 65px;
+}
+.sec-new-imag:hover{
+    background-image: url(../images/Polygon\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    padding: 65px;
+}
+.service-section-offered{
+    margin-top: -85px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -84,7 +153,7 @@ a.nav-link.text-light {
 }
 
 .sec-serv-h {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 66px;
@@ -98,15 +167,10 @@ a.nav-link.text-light {
     padding: 30px 0px;
 
 }
-.sec-ser-n{
+
+.sec-ser-n {
     font-size: 22px !important;
 }
-
-
-
-
-
-
 
 .sec-sev-img {
     padding: 19px 14px;
@@ -126,31 +190,14 @@ a.nav-link.text-light {
 
 }
 
-.sec-hover-full:hover .sec-sev-img {
-    background: #FFFFFF;
-    border: 1px solid #C6C6C6;
-    box-shadow: inset 0px 0px 25px 3px rgba(17, 17, 17, 0.13);
-    border-radius: 50%;
-    padding: 18px 14px;
 
-}
 
-.sec-hover-full:hover .sec-ser-hov {
-    color: #000000;
+ .sec-  new-imag:hover .sec-ser-hov:hover{
+    color: #ffffff !important ;
     text-decoration: none;
 }
 
-.sec-hover-full:hover .sec-ser-hov::before {
-    content: "";
-    width: 25px;
-    height: 5px;
-    background-color: #111111;
-    position: absolute;
-    bottom: -13px;
-    margin: auto;
-    left: 0;
-    right: 0;
-}
+
 
 .sec-but-2:hover {
     color: #fff;
@@ -164,12 +211,11 @@ a.nav-link.text-light {
 }
 
 .sec-hair-h {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
     line-height: 119.48%;
-    text-align: center;
     background: linear-gradient(105.42deg, #E0AE30 10.69%, #B88611 134.95%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -195,7 +241,7 @@ a.nav-link.text-light {
     padding-bottom: 4%;
 }
 
-.sec-p-what{
+.sec-p-what {
     font-size: 20px !important;
 }
 
@@ -223,9 +269,9 @@ input#exampleInputEmail1 {
     line-height: 114.5%;
     text-transform: capitalize;
     color: #FFFFFF;
-    background: #808080;
+    background: #25D366;
     display: inline-block;
-    padding: 21px 25px;
+    padding: 21px 35px;
 }
 
 .sec-but-3:hover {
@@ -248,12 +294,14 @@ input#exampleInputEmail1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.sec-ind-p{
+
+.sec-ind-p {
     font-size: 20px;
     padding: 20px;
 }
+
 .sec-serv-h2 {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 78px;
@@ -269,7 +317,7 @@ input#exampleInputEmail1 {
 }
 
 .sec-bg-header5 {
-    background-color: #2F2F2F;
+    background-color: #111111;
 }
 
 hr.sec-hr {
@@ -280,7 +328,7 @@ hr.sec-hr {
 }
 
 .sec-foot-h {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 31px;
@@ -340,22 +388,19 @@ a.nav-link.sec-t.text-light {
 }
 
 .sec-about-header {
-    background-image: url(../images/Group\ 85.png);
+    background-image: url(../images/about-bgg.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
 }
 
 .sec-about-h {
-    font-family: 'Crimson';
-    font-style: normal;
+    font-family: 'Playfair Display';
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 96.98%;
-    text-align: right !important;
-    justify-content: center;
-    color: #CF9D23;
-    padding: 100px 0px;
+    color: #ffffff;
+    padding: 150px 0px;
 }
 
 .sec-our {
@@ -433,25 +478,31 @@ label {
     color: #666666;
 
 }
-.sec-btn-what2 .sec-but-4{
+
+.sec-btn-what2 .sec-but-4 {
     display: inline-block;
 }
-.footer-formwrap{
+
+.footer-formwrap {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
-.footer-formwrap .sec-btn-what2{
+
+.footer-formwrap .sec-btn-what2 {
     padding-top: 0px;
 }
-.footer-formwrap .form-group.p-0{
+
+.footer-formwrap .form-group.p-0 {
     margin: 0px;
 }
-.footer-formwrap .sec-but-4{
+
+.footer-formwrap .sec-but-4 {
     padding: 13px 13px;
 }
-.service-section .card-body .btn{
+
+.service-section .card-body .btn {
     padding: 5px 20px;
     font-size: 13px;
 }
@@ -515,8 +566,8 @@ a {
 
 /* ---franchise */
 .sec-fran-header {
-   background-color: #000;
- 
+    background-color: #000;
+
 }
 
 .sec-fra-h {
@@ -542,22 +593,24 @@ a {
     color: #FFFFFF;
     padding-bottom: 20px;
 }
+
 /* ------------------franchise-------------- */
 
-.sec-fran-bg{
+.sec-fran-bg {
     background-image: url(../images/Rectangle\ 47.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.sec-f-h{
+
+.sec-f-h {
     font-family: 'Crimson';
-font-style: normal;
-font-weight: 700;
-font-size: 70px;
-line-height: 96.98%;
-text-align: center;
-color: #FFFFFF;
-padding-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 96.98%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
 }
 
 .sec-serv-fra-h {
@@ -615,114 +668,125 @@ padding-top: 50px;
     padding-top: 20px;
     font-size: 40px;
 }
-.sec-con-p{
+
+.sec-con-p {
     word-break: break-word;
 }
-.con-bg{
+
+.con-bg {
     margin-top: -40px;
 }
 
-.sec-form{
+.sec-form {
     width: 55%;
 }
+
 input.form-control.shadow.p-4.mt-2.mb-2.bg-body {
     border-radius: 0px !important;
     font-size: 25px;
-    font-family: 'Crimson'; 
+    font-family: 'Crimson';
     font-weight: 600;
     height: 65px;
 }
+
 textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
     font-size: 25px;
     font-weight: 600;
-    font-family: 'Crimson'; 
+    font-family: 'Crimson';
     border-radius: 0px !important;
     padding: 7px 23px !important;
 }
-.btn{
+
+.btn {
     background-color: #C38D06;
     border-radius: 0;
     padding: 15px 50px;
-    font-family: 'Crimson'; 
+    font-family: 'Crimson';
     font-size: 25px;
 }
-.btn.btn:hover  {
+
+.btn.btn:hover {
     background-color: #C38D06;
 }
-.sec-foot-p{
+
+.sec-foot-p {
     letter-spacing: 1px;
 }
-.sec-cont{
+
+.sec-cont {
     height: 225px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 input#exampleInputEmail12 {
     border-radius: 0px;
 }
-.style-gallery-section{
+
+.style-gallery-section {
     padding: 80px 0px;
 }
 
 /* ---------------all-team -----------*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: 'Open Sans';
+    margin: 0;
+    font-family: 'Open Sans';
 }
 
 h1 {
-  font-weight: 100;
-  margin: 0;
+    font-weight: 100;
+    margin: 0;
 }
 
 section {
-  column-width: 300px;
-  column-gap: 5px;
-  padding: 5px;
+    column-width: 300px;
+    column-gap: 5px;
+    padding: 5px;
 }
 
 section img {
-  width: 100%;
-  cursor: pointer;
+    width: 100%;
+    cursor: pointer;
 }
 
 .lightbox {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: none;
-  background: #7f8c8d;
-  perspective: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background: #7f8c8d;
+    perspective: 1000;
 }
 
 .filter {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  filter: blur(20px);
-  opacity: 0.5;
-  background-position: center;
-  background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
 }
 
 .lightbox img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotateY(0deg);
-  max-height: 95vh;
-  max-width: calc(95vw - 100px);
-  transition: 0.8s cubic-bezier(0.7, 0, 0.4, 1);
-  transform-style: preserve-3d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    max-height: 95vh;
+    max-width: calc(95vw - 100px);
+    transition: 0.8s cubic-bezier(0.7, 0, 0.4, 1);
+    transform-style: preserve-3d;
 }
 
 
@@ -731,81 +795,81 @@ section img {
 }*/
 
 [class^="arrow"] {
-  height: 200px;
-  width: 50px;
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
+    height: 200px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 [class^="arrow"]:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-  width: 15px;
-  height: 15px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 15px;
+    height: 15px;
 }
 
 .arrowr {
-  right: 0;
+    right: 0;
 }
 
 .arrowr:after {
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .arrowl {
-  left: 0;
+    left: 0;
 }
 
 .arrowl:after {
-  border-left: 1px solid white;
-  border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .close {
-  position: absolute;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  background: rgba(0, 0, 0, 0.4);
-  margin: 20px;
-  cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    cursor: pointer;
 }
 
 .close:after,
 .close:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 1px;
-  height: 100%;
-  background: #e74c3c;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #e74c3c;
 }
 
 .close:after {
-  transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .close:before {
-  transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .title {
-  font-size: 20px;
-  color: #000;
-  z-index: 1000;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 20px 0;
+    font-size: 20px;
+    color: #000;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
 }
 
 
@@ -821,6 +885,7 @@ section img {
     font-size: 18px;
     color: #999;
 }
+
 .sec-about-h22 {
     font-family: 'Crimson';
     font-style: normal;
@@ -869,6 +934,7 @@ section img {
 .tz-gallery .lightbox:hover:before {
     opacity: 1;
 }
+
 /* product */
 .sec-but-22 {
     font-family: 'Crimson';
@@ -883,8 +949,9 @@ section img {
     text-transform: uppercase;
     border: none;
 }
+
 .sec-product-shop-p {
-    font-family: 'Sweet Sensations Personal Use';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 66px;
@@ -897,7 +964,8 @@ section img {
     text-fill-color: transparent;
     padding: 30px 0px;
 }
-.form-group label{
+
+.form-group label {
     font-family: 'Crimson';
     font-style: normal;
     font-weight: 700;
@@ -905,133 +973,176 @@ section img {
     text-transform: capitalize;
     color: #000;
 }
-@media (max-width:991px){
 
-    .mission-vision-content{
+@media (max-width:991px) {
+
+    .mission-vision-content {
         margin-top: 40px;
     }
-    .pt-5.abt-mission-vision{
+
+    .pt-5.abt-mission-vision {
         padding-top: 0px !important;
     }
-    .out-story-content{
+
+    .out-story-content {
         margin-top: 40px;
     }
-    .abt-our-story .row{
+
+    .abt-our-story .row {
         flex-direction: column-reverse;
     }
-    .abt-mission-vision{
+
+    .abt-mission-vision {
         flex-direction: column-reverse;
     }
-    .sec-about-header{
+
+    .sec-about-header {
         min-height: auto;
     }
-    .sec-bg-header22{
+
+    .sec-bg-header22 {
         padding: 0px 0px !important;
     }
-    .tab-pane h3 br{
+
+    .tab-pane h3 br {
         display: none;
     }
-    .tab-pane h3{
+
+    .tab-pane h3 {
         font-size: 20px;
     }
-    .sec-serv-h{
+
+    .sec-serv-h {
         padding: 0px 0px 20px;
     }
-    a.nav-link.sec-t.text-light{
+
+    a.nav-link.sec-t.text-light {
         font-size: 18px;
         text-align: center;
     }
-    .service-section-offered{
+
+    .service-section-offered {
         padding-bottom: 0px !important;
     }
-    .hair-beauty-section{
+
+    .hair-beauty-section {
         padding-bottom: 0px !important;
     }
-    .sec-p-what h2{
+
+    .sec-p-what h2 {
         font-size: 32px;
     }
-    .style-gallery-section .sec-ser-n{
+
+    .style-gallery-section .sec-ser-n {
         font-size: 20px !important;
     }
-    .container-fluid.sec-bg-header44 .pt-5.pb-5.text-center{
+
+    .container-fluid.sec-bg-header44 .pt-5.pb-5.text-center {
         padding-top: 0px !important;
     }
 }
-@media (max-width:767px){
 
-        .con-bg{
+@media (max-width:767px) {
+    .sec-new-imag{
+       padding: 10px;
+    }
+    .sec-new-imag:hover{
+       padding: 10px;
+    }
+    .service-section-offered{
+        margin: 0px !important;
+        padding: 10px 0px !important;
+    }
+    .sec-logo222 {
+        margin-bottom: 0px !important;
+        width: 53% !important;
+    }
+
+    li.nav-item.pl-2.pr-2 {
+        padding-top: 0px !important;
+    }
+
+    .con-bg {
         margin-top: 50px;
     }
+
     .sec-serv-fra-h {
 
         font-weight: 700;
         font-size: 32px;
         line-height: 96.98%;
-       
+
     }
-    .sec-f-h{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 96.98%;
-  
+
+    .sec-f-h {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 96.98%;
+
     }
+
     .sec-fan-p-ser {
-       
+
         font-size: 20px;
         line-height: 133.48%;
-        
+
     }
+
     .sec-about-h {
-       
+
         font-weight: 700;
         font-size: 50px;
         line-height: 96.98%;
-       
+
         padding: 80px 0px;
     }
-    
-.sec-our {
- 
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 96.98%;
-    color: #000000;
 
-}
-.sec-fra-h {
- 
-    font-size: 50px;
-    line-height: 96.98%;
-    text-align: center;
-    padding-top: 80px;
+    .sec-our {
 
-}
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 96.98%;
+        color: #000000;
 
-.sec-about-p {
-    font-size: 15px;
-    line-height: 150.98%;
-    text-align: center;
-  
-}
+    }
 
-.sec-ser-hov22 {
-   
-    font-size: 16px;
-   
-}
+    .sec-fra-h {
+
+        font-size: 50px;
+        line-height: 96.98%;
+        text-align: center;
+        padding-top: 80px;
+
+    }
+
+    .sec-about-p {
+        font-size: 15px;
+        line-height: 150.98%;
+        text-align: center;
+
+    }
+
+    .sec-ser-hov22 {
+
+        font-size: 16px;
+
+    }
 
     .sec-form {
         width: 100%;
     }
+
     .sec-bg-header22 {
         background-color: #2F2F2F;
         padding: 10px !important;
     }
+
     .sec-heading-main {
         font-weight: 400;
         font-size: 35px;
         line-height: 108.98%;
     }
+
     .sec-bg-header44 {
         background-image: none;
         background-color: #000;
@@ -1052,12 +1163,15 @@ section img {
         margin-bottom: 20px;
         display: inline-block;
     }
-    .pl-5.style-gallery-section{
+
+    .pl-5.style-gallery-section {
         padding-left: 15px !important;
     }
-    .container-fluid.sec-bg-header44 .sec-serv-h2{
+
+    .container-fluid.sec-bg-header44 .sec-serv-h2 {
         padding: 40px 0px 0px 0px;
     }
+
     .sec-b-m {
         margin: 20px 0px !important;
         padding: 5px !important;
@@ -1092,14 +1206,22 @@ section img {
     .sec-logo {
         width: 100%;
     }
-    input.form-control.shadow.p-4.mt-2.mb-2.bg-body{
+
+    input.form-control.shadow.p-4.mt-2.mb-2.bg-body {
         font-size: 20px;
     }
-    textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body{
+
+    textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
         font-size: 20px;
     }
+
     .btn {
         padding: 10px 40px;
         font-size: 20px;
     }
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1500px !important;
+}
 }
