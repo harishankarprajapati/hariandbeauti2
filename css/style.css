@@ -1329,7 +1329,7 @@ section img {
     a.nav-link.text-light {
         font-family: 'Nunito';
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 81%;
     }
     li.nav-item.pl-2.pr-2{
@@ -1340,16 +1340,17 @@ section img {
         font-family: 'Nunito';
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 16px;
         color: #FFFFFF;
         padding: 5px 7px;
+        margin-top: 8px !important;
     }
     .sec-number {
         font-family: 'Nunito';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         color: #FFFFFF;
     }
