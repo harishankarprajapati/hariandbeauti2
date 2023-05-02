@@ -1324,3 +1324,42 @@ section img {
         max-width: 1500px !important;
     }
 }
+@media (max-width: 1024px) {
+
+    a.nav-link.text-light {
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 81%;
+    }
+    li.nav-item.pl-2.pr-2{
+        padding: 10px 0px !important;
+    }
+    a.btn.sec-menu-btn.my-2.my-sm-0 {
+        background: #C48D06;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 5px 7px;
+    }
+    .sec-number {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        margin: 0;
+    }
+}
