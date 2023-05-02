@@ -1354,7 +1354,7 @@ section img {
         color: #FFFFFF;
     }
     .container, .container-lg, .container-md, .container-sm {
-        max-width: 960px;
+        max-width: 1000px;
         margin: 0;
         padding: 0;
     }
