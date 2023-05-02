@@ -126,7 +126,7 @@ a.nav-link.text-light {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
-    padding: 65px;
+    padding: 64px;
 }
 
 .sec-new-imag:hover {
@@ -134,7 +134,7 @@ a.nav-link.text-light {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
-    padding: 65px;
+    padding: 64px;
 }
 
 .service-section-offered {
@@ -596,20 +596,22 @@ a {
 
 /* ---franchise */
 .sec-fran-header {
-    background-color: #000;
+    background-image: url(../images/har-fan-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
 
 }
 
 .sec-fra-h {
-    font-family: 'Crimson';
+
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 96.98%;
-    text-align: right !important;
-    justify-content: center;
-    color: #CF9D23;
-    padding-top: 80px;
+    color: #FFFFFF;
+    padding: 150px 0px;
 
 }
 
@@ -618,10 +620,10 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 150.98%;
-    text-align: right;
     width: 805;
-    color: #FFFFFF;
+    color: #000;
     padding-bottom: 20px;
+    padding-top: 330px;
 }
 
 /* ------------------franchise-------------- */
@@ -651,35 +653,24 @@ a {
     font-size: 70px;
     line-height: 96.98%;
     text-align: center;
-    color: #000;
+    color: #D9A72A;
     padding-top: 50px;
 }
 
 .sec-ser-hov22 {
-    font-family: 'Crimson';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 96.98%;
-    text-align: center;
-    color: #666666;
+    font-family: 'Nunito' !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 17px !important;
+line-height: 27px !important;
+text-align: center !important;
+text-transform: uppercase !important;
+color: #000000 !important;
+
 }
 
-.sec-ser-hov22:hover {
-    color: #666666;
-}
 
-.sec-hover-full:hover .sec-ser-hov22::before {
-    content: "";
-    width: 55px;
-    height: 5px;
-    background-color: #C38D06;
-    position: absolute;
-    bottom: -13px;
-    margin: auto;
-    left: 0;
-    right: 0;
-}
+
 
 .sec-fan-p-ser {
     font-family: 'Crimson';
@@ -689,6 +680,10 @@ a {
     line-height: 133.48%;
     text-align: center;
     color: #000000;
+}
+.row.sec-roww {
+    display: flex !important;
+    justify-content: space-evenly !important;
 }
 
 
@@ -774,10 +769,10 @@ textarea.form-control.shadow.p-1.mt-2.mb-2.bg-body {
 input#exampleInputEmail12 {
     border-radius: 0px;
     padding: 26px 30px !important;
-    border-bottom:1px solid #aaa ;
-    border-top:0 ;
-    border-left:0 ;
-    border-right:0 ;
+    border-bottom: 1px solid #aaa;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 .style-gallery-section {
@@ -1107,20 +1102,27 @@ section img {
 }
 
 @media (max-width:767px) {
+    .sec-fran-header {
+        min-height: auto;
+    }    
     .style-gallery-section {
         padding: 10px 0px !important;
     }
+
     .footer-formwrap .sec-but-4 {
         padding: 14px 10px !important;
     }
+
     .footer-subsc {
         font-size: 30px;
         text-align: center !important;
     }
+
     .footer-formwrap .form-group.p-0 {
         margin: 0px;
         width: 100% !important;
     }
+
     #footer-menu {
         display: block;
         padding: 0;
@@ -1128,11 +1130,11 @@ section img {
     }
 
     .sec-new-imag {
-        padding: 10px;
+        padding: 20px;
     }
 
     .sec-new-imag:hover {
-        padding: 10px;
+        padding: 20px;
     }
 
     .service-section-offered {
@@ -1198,14 +1200,18 @@ section img {
         font-size: 50px;
         line-height: 96.98%;
         text-align: center;
-        padding-top: 80px;
+        padding: 40px 0px;
 
+    }
+    .sec-fff-mh{
+        width: 100%;
     }
 
     .sec-about-p {
         font-size: 15px;
         line-height: 150.98%;
         text-align: center;
+        padding-top: 20px ;
 
     }
 
