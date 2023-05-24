@@ -459,12 +459,23 @@ a.nav-link.sec-t.text-light {
 
 /* Services */
 .sec-about-header2 {
-    background-image: url(../images/Group\ 86\ \(1\).png);
+    background-image: url(../images/ser-bgg.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
 }
-
+.sec-about-header222{
+    background-image: url(../images/Products-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.sec-about-header2ga{
+    background-image: url(../images/gallery-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
 .form-check-input:checked {
     background-color: #C38D06;
     border-color: #C38D06;
